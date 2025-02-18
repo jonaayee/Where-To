@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F5A13F82D642EB400402491 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A13F52D642EB400402491 /* ContentView.swift */; };
+		3F5A13F92D642EB400402491 /* Where_To_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A13F62D642EB400402491 /* Where_To_App.swift */; };
+		3F5A13FA2D642EB400402491 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A13F22D642EB400402491 /* Preview Assets.xcassets */; };
+		3F5A13FB2D642EB400402491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A13F42D642EB400402491 /* Assets.xcassets */; };
+		3F5A13FF2D64383000402491 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A13FE2D64383000402491 /* LocationManager.swift */; };
+		3F5A14012D644D8A00402491 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A14002D644D8A00402491 /* SearchViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3F5A13E12D642EAB00402491 /* Where To?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where To?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5A13F22D642EB400402491 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F5A13F42D642EB400402491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F5A13F52D642EB400402491 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F5A13F62D642EB400402491 /* Where_To_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_To_App.swift; sourceTree = "<group>"; };
+		3F5A13FE2D64383000402491 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3F5A14002D644D8A00402491 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3F5A13E32D642EAB00402491 /* Where To? */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Where To?";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3F5A13DE2D642EAB00402491 /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		3F5A13D82D642EAB00402491 = {
 			isa = PBXGroup;
 			children = (
-				3F5A13E32D642EAB00402491 /* Where To? */,
+				3F5A13F72D642EB400402491 /* Where To? */,
 				3F5A13E22D642EAB00402491 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				3F5A13E12D642EAB00402491 /* Where To?.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3F5A13F32D642EB400402491 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F5A13F22D642EB400402491 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F5A13F72D642EB400402491 /* Where To? */ = {
+			isa = PBXGroup;
+			children = (
+				3F5A13F62D642EB400402491 /* Where_To_App.swift */,
+				3F5A13F52D642EB400402491 /* ContentView.swift */,
+				3F5A13FE2D64383000402491 /* LocationManager.swift */,
+				3F5A14002D644D8A00402491 /* SearchViewModel.swift */,
+				3F5A13F32D642EB400402491 /* Preview Content */,
+				3F5A13F42D642EB400402491 /* Assets.xcassets */,
+			);
+			path = "Where To?";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				3F5A13E32D642EAB00402491 /* Where To? */,
 			);
 			name = "Where To?";
 			packageProductDependencies = (
@@ -109,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5A13FA2D642EB400402491 /* Preview Assets.xcassets in Resources */,
+				3F5A13FB2D642EB400402491 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5A13FF2D64383000402491 /* LocationManager.swift in Sources */,
+				3F5A13F82D642EB400402491 /* ContentView.swift in Sources */,
+				3F5A14012D644D8A00402491 /* SearchViewModel.swift in Sources */,
+				3F5A13F92D642EB400402491 /* Where_To_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,21 +286,26 @@
 				DEVELOPMENT_TEAM = UFLQ47D2A9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We require your location to help route you to where you need to be :)";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We require your location to help route you to where you need to be :)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jonaayee.Where-To-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonaayee.WhereTo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -284,21 +320,26 @@
 				DEVELOPMENT_TEAM = UFLQ47D2A9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We require your location to help route you to where you need to be :)";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We require your location to help route you to where you need to be :)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jonaayee.Where-To-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonaayee.WhereTo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
